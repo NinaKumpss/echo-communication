@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Echo Communication - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> <a href="index.html"> <img src="isolated-monochrome-white.svg" alt="Logo" class="logo"></a> </h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tarieven.html">Tarieven</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="containerContact">
+
+            <article class="gridcardfun">
+                <h1>Vraag een offerte aan</h1>
+                <form>
+                    <label for="naam" class="naam">Naam</label>
+                    <input type="text" name="naam" id="naam">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="taalcombinatie">Taalcombinatie</label>
+                    <input type="text" name="taalcombinatie" id="taalcombinatie">
+
+                    <label for="bericht">Bericht</label>
+                    <textarea name="bericht" id="bericht" cols="30" rows="10"></textarea>
+
+                    <button type="submit" class="button">Verzenden</button>
+                </form>
+            </article>
+            <div>
+                <article class="gridcard">
+                    <h1>Contactgegevens</h1>
+                    <h2>Adres</h2>
+                    <p>Blekersstraat 9</p>
+                    <p>3090 Overijse</p>
+                    <p>België</p>
+                    <h2>E-mail</h2>
+                    <p>info@echo-communication.com</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2522.7899595505273!2d4.547841615700207!3d50.779467079522114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3d978dfaad1e3%3A0x543ba375b7f8928d!2sBlekersstraat%209%2C%203090%20Overijse!5e0!3m2!1snl!2sbe!4v1575384924900!5m2!1snl!2sbe"
+                        id="kaart" alt="google maps-kaart"></iframe>
+                </article>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>©Echo Communication</footer>
+</body>
+
+</html>
